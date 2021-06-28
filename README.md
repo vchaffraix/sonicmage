@@ -1,9 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" height=75>
-  </a>
+  <img src="images/logo.png" alt="Logo" height=75>
   <p align="center">
     <i>An image sonification audio plugin made with JUCE</i>
   </p>
