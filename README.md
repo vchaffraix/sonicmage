@@ -5,7 +5,7 @@
     <img src="images/logo.png" alt="Logo" height=75>
   </a>
   <p align="center">
-    <i>An image sonification plugin made with JUCE</i>
+    <i>An image sonification audio plugin made with JUCE</i>
   </p>
 
 
@@ -22,6 +22,7 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#compile-the-project">Compile the project</a></li>
+        <li><a href="#how-to-use">How to use</a></li>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
@@ -63,8 +64,9 @@ You can get JUCE [here](https://juce.com/get-juce).
 You should compile with the `Release` configuration to benefit from the compiler optimizations. Compiling in `Debug` mode will probably cause audio glitches.
 
 ### How to use
+Open the standalone app, or inport the plugin into your DAW and send midi notes to the plugin like you would with a synthesizer.
 
-You don't have to open an image to produce sound with SonicMage but you will only hear a basic sine wave at the fundamental of the note you press.
+You don't have to open an image to produce sound with SonicMage but you will only hear a basic sine wave at the fundamental of the note you send.
 To add partials just click the button on the top left and choose an image!
 
 You can control the behaviour of the sonification process with the following parameters :
